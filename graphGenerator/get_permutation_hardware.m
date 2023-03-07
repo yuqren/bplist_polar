@@ -3,6 +3,8 @@
 % -----------------------------------------------------------------------------------------------------------
 % name   : get_permutation_hardware
 % descr  : generate codeword permutations in a low-complexity matrix decomposition fashion for hardware
+% refer  : Y. Ren, et al, 'High-Throughput Flexible Belief Propagation List Decoder for Polar Codes', 
+%          arXiv preprint arXiv:2210.13887, 2022
 
 function [graphs_pos, graphs_inv] = get_permutation_hardware(PFG, list_num, N, n)
 
